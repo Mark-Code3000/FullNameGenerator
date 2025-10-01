@@ -26,25 +26,25 @@ suffix
         //this will capture the input from the user for the first question/prompt and store it
         //in the firstName variable
 
-        String firstName = nameScanner.nextLine();
+        String firstName = nameScanner.nextLine().trim();
 
         // we will now prompt the user again for their middle name
         System.out.print("Middle name: ");
 
         //here we will store the middleName variable
-        String middleName = nameScanner.nextLine();
+        String middleName = nameScanner.nextLine().trim();
 
         //and a similar prompt for lastName
         System.out.print("Last name: ");
 
         //here we will store the lastName variable
-        String lastName = nameScanner.nextLine();
+        String lastName = nameScanner.nextLine().trim();
 
         //and now a suffix
         System.out.print("Suffix: ");
 
         //storing the suffix
-        String suffix = nameScanner.nextLine();
+        String suffix = nameScanner.nextLine().trim();
 
         //strat the full name variable and start with first name
         String fullName = firstName;
